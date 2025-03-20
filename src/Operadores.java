@@ -38,5 +38,27 @@ public class Operadores {
         String resultado = a==b ? "Verdadeiro" : "Falso";
 
         System.out.println(resultado);
+
+        //relacionais
+        int numero1 = 1;
+        int numero2 = 2;
+
+        if(numero1 == numero2)
+            System.out.println("numeroUm é igual a numeroDois? ");
+        if (numero1 != numero2)
+            System.out.println("numeroUm é diferente a numeroDois? ");
+        if (numero1 > numero2)
+            System.out.println("numeroUm é maior a numeroDois? ");
+        if (numero1 >= numero2)
+            System.out.println("numeroUm é maior ou igual a numeroDois? ");
+        if (numero1 < numero2)
+            System.out.println("numeroUm é menor a numeroDois? ");
+        if (numero1 <= numero2)
+            System.out.println("numeroUm é menor ou igual a numeroDois? ");
+
+        String nomeUm = "GABRIEL";
+        String nomeDois = new String("GABRIEL");
+
+        System.out.println(nomeUm.equals(nomeDois));
     }
 }
