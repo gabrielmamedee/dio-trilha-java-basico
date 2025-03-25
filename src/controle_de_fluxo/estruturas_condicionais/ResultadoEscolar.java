@@ -1,4 +1,4 @@
-package controle_de_fluxo;
+package controle_de_fluxo.estruturas_condicionais;
 
 public class ResultadoEscolar {
     public static void main(String[] args) {
